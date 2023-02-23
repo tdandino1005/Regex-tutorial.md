@@ -38,9 +38,11 @@ The OR operator [] is used in this regex. For example, [a-z0-9_\.-] means any ch
 
 ### Character Classes
 
-
+This regex uses the character class \d which matches which matches a single character that is a digit from 0-9. 
 
 ### Flags
+
+
 
 ### Grouping and Capturing
 
