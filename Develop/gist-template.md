@@ -46,9 +46,12 @@ Flags are placed at the end of a regex, after the second slash, and they define 
 
 ### Grouping and Capturing
 
-The primary way to group a section of a regex is by using parentheses (()), which is used in this regex. Each section within parentheses is known as a subexpression. The first set of () captures the username of the email address, the second set captures the domain name, and the final set captures the top-level domain. Broken down, /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ means one or more characters a-z, 0-9, _, ., or -, followed by a literal @, followed by one or more characters of any digit 0-9, a-z, ., or -, followed by a literal ., followed by 2-6 characters a-z or .
+The primary way to group a section of a regex is by using parentheses (()), which is used in this regex. Each section within parentheses is known as a subexpression. The first set of () captures the username of the email address, the second set captures the domain name, and the final set captures the top-level domain. Capturing the first group in this expression is ([a-z0-9_\.-]+) that matches the user email name. The second capturing group is ([\da-z\.-]+) which matches the domain. Then the third capture group is ([a-z\.]{2,6}) to capture the top-level domain(.com).
 
 ### Bracket Expressions
+
+Bracket expressions for email validation includes the character sets of [a-z0-9_\.-], which is matching any letter a-z and is case senstive. It also matches a character 0-9 and matches the characters "_" , "." , and "-"; [\da-z\.-], which is matching a single digit from 0-9, any character a-z (case senstive), and the characters "." and "-".; [a-z\.] matches any character a-z(case senstive) and the character ".".
+
 
 ### Greedy and Lazy Match
 
