@@ -25,7 +25,12 @@ I will be breaking down the following regex for matching an email
 
 ### Anchors
 
+The characters ^ and $ are both anchors in this regex. The ^ anchor signifies a string that begins with the characters that follow it. The $ anchor signifies a string that ends with the characters that precede it.
+
 ### Quantifiers
+
+Quantifiers sets the limits of the string that the regex matches. They frequently include the minimum and maximum number of characters the regex is looking for. In this regex, quantifiers includes the + operator, which means one or more. Another quantifier for this regex includes {2,6}, which will allow a match range of 2-6 characters for the character set of [a-z\.].
+
 
 ### OR Operator
 
