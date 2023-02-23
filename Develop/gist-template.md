@@ -42,7 +42,7 @@ This regex uses the character class \d which matches which matches a single char
 
 ### Flags
 
-
+Flags are placed at the end of a regex, after the second slash, and they define additional functionality or limits for the regex. In this regex, it is enclosed by two / characters, so there are no flags.
 
 ### Grouping and Capturing
 
