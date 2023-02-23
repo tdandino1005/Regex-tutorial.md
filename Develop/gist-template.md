@@ -66,6 +66,8 @@ Backreferences match the same text as previously matched by a capturing group. I
 
 ### Look-ahead and Look-behind
 
+Look-ahead allows you to add a condition of what will follow. Look-behind allows to match a pattern only if there is something before it. Look-ahead and look-behind are useful when we want to match something depending on the context before/after it.
+
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
