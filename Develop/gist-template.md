@@ -34,7 +34,11 @@ Quantifiers sets the limits of the string that the regex matches. They frequentl
 
 ### OR Operator
 
+The OR operator [] is used in this regex. For example, [a-z0-9_\.-] means any character a-z, any digit 0-9, _, ., or -. The backslash (\) in this regex escapes a character that otherwise would be interpreted literally.
+
 ### Character Classes
+
+
 
 ### Flags
 
