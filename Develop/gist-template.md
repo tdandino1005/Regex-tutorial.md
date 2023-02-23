@@ -58,7 +58,11 @@ This regex uses the greedy quantitfier since it includes the + and {}. The + qua
 
 ### Boundaries
 
+A regex Boundary \b matches positions where one side is a word character (usually a letter, digit or underscore—but see below for variations across engines) and the other side is not a word character (for instance, it may be the beginning of the string or a space character). This regex does not use any boundaries since the \b is never used.
+
 ### Back-references
+
+Backreferences match the same text as previously matched by a capturing group. If you want to match a pair of opening and closing HTML tags, and the text in between. By putting the opening tag into a backreference, we can reuse the name of the tag for the closing tag. Since this regex does not back reference a previous character that was used, it is not relevant in this tutorial.
 
 ### Look-ahead and Look-behind
 
