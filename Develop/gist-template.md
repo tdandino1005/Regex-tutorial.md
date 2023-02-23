@@ -1,11 +1,11 @@
 # Regex Tutorial: Matching an Email
 
-A regular expression, or regex, is a sequence of characters that specifies a search pattern in text. These patterns are used by string-searching algorithms for "find" or "find and replace" operations on stings, or for input validation. Regular expression techniques are developed in thoretical computer science and formal language theory.
+A regular expression, or regex, is a sequence of characters that specifies a search pattern in text. These patterns are used by string-searching algorithms for "find" or "find and replace" operations on stings, or for input validation. Regular expression techniques are developed in theoretical computer science and formal language theory.
 
 ## Summary
 
 I will be breaking down the following regex for matching an email
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ into basic components. This regex would be useful for validating email input.
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ into basic components. This regex would be useful for validating email input in various applications and technologies.
 
 ## Table of Contents
 
