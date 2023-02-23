@@ -46,6 +46,8 @@ Flags are placed at the end of a regex, after the second slash, and they define 
 
 ### Grouping and Capturing
 
+The primary way to group a section of a regex is by using parentheses (()), which is used in this regex. Each section within parentheses is known as a subexpression. The first set of () captures the username of the email address, the second set captures the domain name, and the final set captures the top-level domain. Broken down, /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ means one or more characters a-z, 0-9, _, ., or -, followed by a literal @, followed by one or more characters of any digit 0-9, a-z, ., or -, followed by a literal ., followed by 2-6 characters a-z or .
+
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
