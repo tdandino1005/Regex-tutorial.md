@@ -70,4 +70,4 @@ Look-ahead allows you to add a condition of what will follow. Look-behind allows
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This was completed by Tony Dandino. Please feel free to view my projects at https://github.com/tdandino1005.
