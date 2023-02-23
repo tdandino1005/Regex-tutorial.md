@@ -52,8 +52,9 @@ The primary way to group a section of a regex is by using parentheses (()), whic
 
 Bracket expressions for email validation includes the character sets of [a-z0-9_\.-], which is matching any letter a-z and is case senstive. It also matches a character 0-9 and matches the characters "_" , "." , and "-"; [\da-z\.-], which is matching a single digit from 0-9, any character a-z (case senstive), and the characters "." and "-".; [a-z\.] matches any character a-z(case senstive) and the character ".".
 
-
 ### Greedy and Lazy Match
+
+This regex uses the greedy quantitfier since it includes the + and {}. The + quanitfier means it will match as many times as possible giving back as needed. The {} quantifier is used when matching {2,6} for the last capture group which will allow a match range of 2-6 characters for the character set.
 
 ### Boundaries
 
